@@ -9,3 +9,5 @@ echo "installing neovim"
 sudo dnf install neovim -y
 echo "installing Steam"
 flatpak install flathub com.valvesoftware.Steam -y
+echo "installing Telegram"
+flatpak install flathub org.telegram.desktop
