@@ -10,4 +10,9 @@ sudo dnf install neovim -y
 echo "installing Steam"
 flatpak install flathub com.valvesoftware.Steam -y
 echo "installing Telegram"
-flatpak install flathub org.telegram.desktop
+flatpak install flathub org.telegram.desktop -y
+echo "Installing GNOME Tweaks"
+sudo dnf install gnome-tweak-tool -y
+flatpak install flathub org.gnome.Extensions -y
+echo "Installing Theming..."
+sudo dnf install flat-remix-theme -y
