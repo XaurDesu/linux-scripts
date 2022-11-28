@@ -1,1 +1,1 @@
-sudo snap install spotify krita -y
+sudo snap install spotify krita
