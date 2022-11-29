@@ -1,1 +1,1 @@
-sudo snap install code --classic -y
+sudo snap install code --classic
