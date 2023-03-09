@@ -2,7 +2,7 @@ echo "configuring Flatpak"
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 echo "configuring Snaps..."
-sudo dnf install snapd
+sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 
 echo "installing snaps..."
