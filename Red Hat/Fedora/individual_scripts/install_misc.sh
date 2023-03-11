@@ -13,7 +13,7 @@ sudo dnf install gnome-tweak-tool -y
 flatpak install flathub org.gnome.Extensions -y
 
 echo "Installing Theming..."
-sudo dnf install flat-remix-theme -y
+sudo dnf install flat-remix-theme gnome-shell-extension-tool -y
 
 echo "installing neovim"
 sudo dnf install neovim -y
