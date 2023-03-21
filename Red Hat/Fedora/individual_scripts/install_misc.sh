@@ -18,6 +18,6 @@ sudo dnf install flat-remix-theme gnome-shell-extension-tool -y
 echo "installing neovim"
 sudo dnf install neovim -y
 echo "installing Steam"
-flatpak install flathub com.valvesoftware.Steam -y
+sudo dnf install steam -y
 echo "installing LaTeX..."
 sudo dnf install texlive-scheme-full -y
